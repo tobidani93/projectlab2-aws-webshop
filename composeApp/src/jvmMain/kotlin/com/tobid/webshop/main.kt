@@ -1,13 +1,12 @@
 package com.tobid.webshop
 
-import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import kotlin.math.sqrt
+
 
 fun main() = application {
-    Window(
-        onCloseRequest = ::exitApplication,
-        title = "webshop",
-    ) {
-        App()
-    }
+    val array = arrayOf<Int>(1, 2, 3)
+
+    for(i in 0..array.lastIndex) {}
+
 }
